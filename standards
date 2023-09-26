@@ -1,0 +1,16 @@
+Filenames: use all lowercase to file and foler names
+Filenames: use index.html as your default home page names.
+
+Use dashes or underscores instead of spaces. (will have to change from space to %, 
+sometimes error occurs)
+
+Your Git Hub respitory must be named wd130
+
+Semantic vs non-semantic tags
+The dic and span tags are not semantic. They are containers only and don't give any hint about
+what's in them.
+
+Three cases where non-semantic tags are useful: stying and layout only, JavaScript manipulation,
+custom widgets
+
+You can validation your html using <a href="http://validator.?????????????????????????
