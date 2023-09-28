@@ -1,11 +1,20 @@
-
-
+/*class*/
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
+/*ID*/
 #active {
-    background-color: white;
+    background-color: lavender;
     color: steelblue;
+}
+
+/*Tag*/
+nav{
+    background-color: aliceblue;
+}
+
+.blue-text{
+    color: blue;
 }
