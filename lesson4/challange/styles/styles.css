@@ -1,0 +1,45 @@
+* {
+    background-color: pink;
+}
+h1{
+   text-align: center;
+   color: white; 
+}
+h1.hover{
+    color: black;
+}
+img{
+    width: 15%;
+    display: block;
+    margin: 30px auto;
+}
+#list{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: left; 
+    font-weight: bold;
+}
+footer p{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+#quote, #name{
+    width: 40%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
+#quote2{
+    width: 30%;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
