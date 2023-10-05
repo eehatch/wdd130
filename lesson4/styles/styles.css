@@ -1,0 +1,52 @@
+* {
+    border: 1px solid lavender;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+p {
+    width: 80%;
+    color: red;
+}
+.mypara{
+    color: green;
+}
+#byui{
+    color:blue;
+} 
+p.mypara{
+    color: orange;
+} /*combined both id and p to be very specific! */
+#byui.mypara{
+    color: hotpink;
+} /* combined id and class */
+/*look at which rule won! all referencing the same paragraph but #id will overrule*/
+
+
+footer p {
+    color: chartreuse;
+} /*being specific again, will always win. it won over the color red */
+
+a {
+    font-size: 1.5em;
+}
+/* em is basically multiplied by. 16 * 1.5 in size 
+rem is the root size, em is the realitive size*/
+nav{
+    height: 15vh;   
+}
+nav, footer {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
