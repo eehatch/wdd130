@@ -10,6 +10,8 @@ main p {
     width: 80%;
     margin: 40px auto;
     text-align: center;
+    margin: 1em 2em 3em 4em; /*1 is top/bottom, 2 is left/right, 3 is the bottom, 4 is left
+    clockwise from the top -top, right, bottom, left*/
 }
 
 
