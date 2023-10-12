@@ -12,7 +12,11 @@ main p {
     text-align: center;
     margin: 1em 2em 3em 4em; /*1 is top/bottom, 2 is left/right, 3 is the bottom, 4 is left
     clockwise from the top -top, right, bottom, left*/
-    border: 5px grey solid;
+    border: 5px grey solid; /* could be Solid, Dashed (background color is padding), dotted, 
+    more on w3 schools*/
+    border-radius: 10px; /* makes the boarder edges curved, not a box. bigger number is more 
+    round. may use % instead of px. changes not only the edges, but forms a more perfect circle
+    50% for same height/width makes a perfect circle*/
 }
 
 
