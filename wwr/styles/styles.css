@@ -9,12 +9,24 @@ nav a{
     text-align: center; 
     color: #1167a1;
     text-decoration: none;
+    padding: 35px;
+}
+.home-title{
+    font-family: Sintony, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1{
     text-align: center;
+    font-family: "Squada One", cursive, Helvetica;
 }
 #hero-msg h4{
     text-align: center;
+    font-family: Sintony, Helvetica, sans-serif;
+}
+#hero-msg h2{
+    font-family: "Squada One", cursive, Helvetica;
+    margin: 0;
 }
 .button-box{
     text-align: center;
@@ -24,6 +36,7 @@ main section{
 }
 .icon, .logo {
     width: 80px;
+    padding-top: 10px;
 }
 #background {
     height: 725px;
@@ -38,10 +51,15 @@ footer p{
 footer p a:hover{
     text-decoration: underline; 
 }
-
+footer .social img{
+    padding-top: 15px;
+}
 body{
     background-color: #778943;
-    
+    font-family: Sintony, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
 }
 header{
     background-color: #E3BD97;
@@ -51,15 +69,15 @@ nav a:hover{
     background-color: #E3BD97;
     color: #1167a1;
 }
-.book{
+.book, .join{
     background-color: #E3BD97;
     color: #1167a1;
     text-decoration: none;
-}
-.join{
-    background-color: #E3BD97;
-    color: #1167a1;
-    text-decoration: none;
+    font-family: Sintony, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #E3BD97;
@@ -72,8 +90,31 @@ nav a:hover{
 .msg{
     background-color: #E3BD97;
     color: #1167a1;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #E3BD97;
     color: #1167a1;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
