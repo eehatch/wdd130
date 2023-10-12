@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&family=Squada+One&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto; /*bc it's an element, use margin */
 }
 
 nav a{
-    text-align: center;
+    text-align: center; 
     color: #1167a1;
     text-decoration: none;
 }
@@ -20,7 +22,7 @@ nav a{
 main section{
     text-align: center;
 }
-.icon {
+.icon, .logo {
     width: 80px;
 }
 #background {
