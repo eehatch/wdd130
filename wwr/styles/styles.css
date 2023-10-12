@@ -62,7 +62,7 @@ body{
     padding: 0; 
 }
 header{
-    background-color: #E3BD97;
+    background-color: white;
     color: #1167a1;
 }
 nav a:hover{
@@ -70,7 +70,7 @@ nav a:hover{
     color: #1167a1;
 }
 .book, .join{
-    background-color: #E3BD97;
+    background-color: white;
     color: #1167a1;
     text-decoration: none;
     font-family: Sintony, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ nav a:hover{
     border-radius: 5px;
 }
 .book:hover{
-    background-color: #E3BD97;
+    background-color: white;
     color: #1167a1;
 }
 .join:hover{
@@ -88,7 +88,7 @@ nav a:hover{
     color: #1167a1;
 }
 .msg{
-    background-color: #E3BD97;
+    background-color: white;
     color: #1167a1;
     line-height: 1.5em;
     padding: 35px;
@@ -98,7 +98,7 @@ nav a:hover{
     padding-bottom: 15px;
 }
 footer{
-    background-color: #E3BD97;
+    background-color: white;
     color: #1167a1;
     padding: 25px 50px;
     margin-top: 200px;
@@ -112,7 +112,7 @@ footer{
 }
 
 .card-img {
-    border: 10px solid black;
+    border: 10px solid black
 }
 
 main section img {
