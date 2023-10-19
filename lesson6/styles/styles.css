@@ -1,0 +1,26 @@
+h1{
+    font-size: 10em;
+    text-align: center;
+    display: grid;
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+h2{
+    font-size: 6em;
+    text-align: right;
+    color: red;
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+img{
+   position: relative; 
+   background-color: white;
+   display: grid;
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+main{
+    background-color: gray;
+}
