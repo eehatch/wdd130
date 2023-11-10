@@ -1,0 +1,39 @@
+
+body{
+    background-color: black;
+}
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: navy;
+    height: 100px;
+    align-content: center ;
+}
+.stats div:nth-child(3){
+    border: none;
+}
+.stat{
+    color: white;
+    text-align: center;
+    border-right: 1px gray solid;
+}
+.stat p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.stat1{
+    font-size: 1.5rem;
+}
+.stat2{
+    font-size: .8rem;
+}

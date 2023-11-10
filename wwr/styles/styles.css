@@ -174,8 +174,25 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
+/** RIVERS PAGE **/
+.rivers-main {
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1167a1;
+    color: #d9c2a3;
+}
+.rivers-first, .rivers-third {
+    
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+}
+.rivers-second {
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
