@@ -263,6 +263,7 @@ form {
     /* Uniform size & alignment */
     display: block;
     width: 90px;
+    padding: .25rem;
     /* text-align: right; */
   }
   input,
