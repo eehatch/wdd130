@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emily's Mission</title>
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
     <div id="content">
@@ -17,8 +18,10 @@
         </header>
         <main class="personal-main">
             <div id="hero">
-                <img src="images/airport.jpg" alt="All the leaving missionaries at the airport">
-                <img src="images/arriving.jpg" alt="I am standing on the train station with my luggage.">
+                <img class="mySlides" src="images/airport.jpg" alt="All the leaving missionaries at the airport">
+                <img class="mySlides" src="images/arriving.jpg" alt="I am standing on the train station with my luggage.">
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
             </div>
 
         </main>

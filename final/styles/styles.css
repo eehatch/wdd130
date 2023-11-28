@@ -1,0 +1,27 @@
+.logo {
+    width: 80px;
+    padding-top: 10px;
+}
+nav a{
+    text-align: center; 
+    color: #EDDCD9;
+    text-decoration: underline #7C4F79;
+    font-size: 2em;
+    padding: 35px;
+}
+header{
+    background-color: #B0A4BF;
+    color: #1167a1;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color: #EDDCD9;
+    color: #7BA574;
+}
+
+
