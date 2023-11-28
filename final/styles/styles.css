@@ -38,7 +38,7 @@ nav a:hover{
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
+  position:relative;
   margin: auto;
 }
 
