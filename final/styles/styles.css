@@ -25,10 +25,27 @@ nav a:hover{
     background-color: #EDDCD9;
     color: #7BA574;
 }
-#main{
+main{
     font-family: "Shadows Into Light", 'Amatic SC', Quicksand, sans-serif;
 }
-
+h1, h2{
+    text-align: center;
+    color:#7C4F79
+}
+h3{
+    color: #7BA574;
+}
+footer {
+    color: #7BA574;
+    padding: 10px 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#links{
+    color:#7C4F79
+}
 
 
 
@@ -40,6 +57,7 @@ nav a:hover{
   max-width: 1000px;
   position:relative;
   margin: auto;
+  padding: 10px
 }
 
 /* Hide the images by default */
