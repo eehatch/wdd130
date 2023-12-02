@@ -46,6 +46,84 @@ footer {
 #links{
     color:#7C4F79
 }
+.ogden-all
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+.ogden-banner
+{
+  grid-column: 1/5;
+  grid-row: 1/2;
+  justify-self: center;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.powell
+{
+  grid-column: 1/2;
+  grid-row: 2/4;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.jones
+{
+  grid-column: 4/5;
+  grid-row: 2/4;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.ogden-text1
+{
+  grid-column: 2/4;
+  grid-row: 2/3;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.ogden-text
+{
+  grid-column: 2/4;
+  grid-row: 3/4;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.ogden-mid
+{
+  grid-column: 2/4;
+  grid-row: 4/5;
+  text-align: center;
+}
+.ogden-1
+{
+  grid-column: 2/3;
+  grid-row: 5/6;
+  padding: 1rem;
+  margin: .5rem auto;
+}
+.ogden-2
+{
+  grid-column: 3/4;
+  grid-row: 5/6;
+  padding: 1rem;
+  margin: .5rem auto;
+}
+.ogden-3
+{
+  grid-column: 2/3;
+  grid-row: 6/7;
+  padding: 1rem;
+  margin: .5rem auto;
+}
+.ogden-4
+{
+  grid-column: 3/4;
+  grid-row: 6/7;
+  padding: 1rem;
+  margin: .5rem auto;
+}
 
 
 
