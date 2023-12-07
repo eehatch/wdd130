@@ -49,16 +49,16 @@ footer {
 .ogden-all
 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
   margin: 0 auto;
+  font-size: 1.3em
 }
 .ogden-banner
 {
   grid-column: 1/5;
   grid-row: 1/2;
-  justify-self: center;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 .powell
 {
@@ -92,7 +92,7 @@ footer {
 }
 .ogden-mid
 {
-  grid-column: 2/4;
+  grid-column: 1/5;
   grid-row: 4/5;
   text-align: center;
 }
@@ -101,31 +101,118 @@ footer {
   grid-column: 2/3;
   grid-row: 5/6;
   padding: 1rem;
-  margin: .5rem auto;
+  margin: 0 auto;
 }
 .ogden-2
 {
   grid-column: 3/4;
   grid-row: 5/6;
   padding: 1rem;
-  margin: .5rem auto;
+  margin: 0 auto;
 }
 .ogden-3
 {
   grid-column: 2/3;
   grid-row: 6/7;
   padding: 1rem;
-  margin: .5rem auto;
+  margin: 0 auto;
 }
 .ogden-4
 {
   grid-column: 3/4;
   grid-row: 6/7;
   padding: 1rem;
-  margin: .5rem auto;
+  margin: 0 auto;
 }
-
-
+/* LOGAN PAGE */
+.logan-all
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  font-size: 1.3em;
+  max-width: 1600px;
+  justify-content: space-around;
+}
+.logan-banner
+{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-maslich
+{
+  grid-column: 1/2;
+  grid-row: 2/4;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-text1
+{
+  grid-column: 2/4;
+  grid-row: 2/3;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.music-video
+{
+  grid-column: 2/4;
+  grid-row: 3/5;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-text2
+{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-1
+{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-2
+{
+  grid-column: 2/3;
+  grid-row: 5/6;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-3
+{
+  grid-column: 3/4;
+  grid-row: 5/6;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-4
+{
+  grid-column: 1/2;
+  grid-row: 6/7;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-5
+{
+  grid-column: 2/3;
+  grid-row: 6/7;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logan-6
+{
+  grid-column: 3/4;
+  grid-row: 6/7;
+  padding: 1rem;
+  margin: 0 auto;
+}
 
 
 * {box-sizing:border-box}
