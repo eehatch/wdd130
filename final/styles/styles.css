@@ -49,9 +49,10 @@ footer {
 .ogden-all
 {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 30% 20% 20% 30%;
   margin: 0 auto;
-  font-size: 1.3em
+  font-size: 1.3em;
+  max-width:max-content;
 }
 .ogden-banner
 {
@@ -66,6 +67,9 @@ footer {
   grid-row: 2/4;
   padding: 1rem;
   margin: 0 auto;
+  border-style: groove;
+  border-color:#7BA574;
+  border-width: 1.5px;
 }
 .jones
 {
@@ -73,6 +77,9 @@ footer {
   grid-row: 2/4;
   padding: 1rem;
   margin: 0 auto;
+  border-style: groove;
+  border-color:#7BA574;
+  border-width: 1.5px;
 }
 .ogden-text1
 {
@@ -98,28 +105,28 @@ footer {
 }
 .ogden-1
 {
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 5/6;
   padding: 1rem;
   margin: 0 auto;
 }
 .ogden-2
 {
-  grid-column: 3/4;
+  grid-column: 3/5;
   grid-row: 5/6;
   padding: 1rem;
   margin: 0 auto;
 }
 .ogden-3
 {
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 6/7;
   padding: 1rem;
   margin: 0 auto;
 }
 .ogden-4
 {
-  grid-column: 3/4;
+  grid-column: 3/5;
   grid-row: 6/7;
   padding: 1rem;
   margin: 0 auto;
