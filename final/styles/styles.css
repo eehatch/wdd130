@@ -25,7 +25,7 @@ nav a:hover{
     background-color: #EDDCD9;
     color: #7BA574;
 }
-main{
+main, footer{
     font-family: "Shadows Into Light", 'Amatic SC', Quicksand, sans-serif;
 }
 h1, h2{
@@ -145,7 +145,7 @@ footer {
 {
   grid-column: 1/4;
   grid-row: 1/2;
-  padding: 1rem;
+  padding: 3rem;
   margin: 0 auto;
 }
 .logan-maslich
@@ -154,6 +154,9 @@ footer {
   grid-row: 2/4;
   padding: 1rem;
   margin: 0 auto;
+  border-style: groove;
+  border-color:#7BA574;
+  border-width: 1.5px;
 }
 .logan-text1
 {
@@ -167,8 +170,11 @@ footer {
 {
   grid-column: 2/4;
   grid-row: 3/5;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0 auto;
+  border-style: groove;
+  border-color:#7BA574;
+  border-width: 1.5px;
 }
 .logan-text2
 {
@@ -183,6 +189,7 @@ footer {
   grid-column: 1/2;
   grid-row: 5/6;
   padding: 1rem;
+  padding-top: 2em;
   margin: 0 auto;
 }
 .logan-2
@@ -190,6 +197,7 @@ footer {
   grid-column: 2/3;
   grid-row: 5/6;
   padding: 1rem;
+  padding-top: 2em;
   margin: 0 auto;
 }
 .logan-3
@@ -197,6 +205,7 @@ footer {
   grid-column: 3/4;
   grid-row: 5/6;
   padding: 1rem;
+  padding-top: 2em;
   margin: 0 auto;
 }
 .logan-4
